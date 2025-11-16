@@ -33,6 +33,34 @@ time, mark, audio, video {
 @font-face {
   font-family: "Roboto-Italic";
   src: url(../fonts/Roboto-Italic.ttf); }
+@font-face {
+  font-family: "magazineletter";
+  src: url(../fonts/magazineletter.ttf);}
+@font-face {
+  font-family: "impactlabel";
+  src: url(../fonts/impactlabel.ttf);}
+@font-face {
+  font-family: "impactlabelreversed";
+  src: url(../fonts/impactlabelreversed.ttf);}
+@font-face {
+  font-family: "blackcasper";
+  src: url(../fonts/blackcasper.ttf);}
+@font-face {
+  font-family: "Blacksword";
+  src: url(../fonts/Blacksword.otf);}
+@font-face {
+  font-family: "BucklaneScript";
+  src: url(../fonts/BucklaneScript.otf);}
+@font-face {
+  font-family: "uni-acc";
+  src: url(../fonts/uni-acc.ttf);}
+@font-face {
+  font-family: "uniacc-italic";
+  src: url(../fonts/uniacc_italic.ttf);}
+
+
+
+
 body {
   font-family: "Roboto-Regular";
   font-size: 16px; }
@@ -70,10 +98,15 @@ header {
     background: rgba(0, 0, 0, 0.7); }
   header .input-group input {
     display: none; }
-  header h2.logo {
-    font-size: 75px;
-    font-family: "Angeline_Vintage";
+  header h1.hi {
+    font-size: 35px;
+    max-width: 665px;
+    font-family: "blackcasper";
     color: #ffffff; }
+  header h2.uplogo {
+    font-size: 75px;
+    font-family: "uni-acc";
+    color: #ffffff;}
   header .nav-fill {
     max-width: 250px; }
     header .nav-fill a {
@@ -81,7 +114,7 @@ header {
     header .nav-fill li:hover a {
       color: #03133a; }
   header .navbar li.nav-item a.nav-link {
-    font-family: "Montserrat-Bold";
+    font-family: "BucklaneScript";
     color: #ffffff;
     padding-right: 1.5rem;
     padding-left: 1.5rem; }
