@@ -90,31 +90,49 @@ header .card a, .vr-gallery a.btn {
     color: #03133a; }
 
 header {
-  background-image: url(../images/home-bg.png);
+  background-color: #000;
   text-align: center;
   padding: 20px 0;
   padding-bottom: 50px; }
-  header .bg-cover {
-    background: rgba(0, 0, 0, 0.7); }
+  header .bg-cover::before {
+    content: "";
+    position: absolute;
+    height: 170px;
+    inset: 0;
+    background-image: url(../images/punk3.jpeg);
+    background-size: cover;
+    background-position: center;
+; /* TRANSPARENCIA SOLO DEL FONDO */
+    opacity: 0.66;
+    z-index: 0; }
   header .input-group input {
     display: none; }
   header h1.hi {
     font-size: 35px;
-    max-width: 665px;
+    max-width: 690px;
+    letter-spacing: 5px;
     font-family: "blackcasper";
-    color: #ffffff; }
+    color: #ffffff;
+    position: relative;
+    z-index: 1;}
   header h2.uplogo {
-    font-size: 75px;
+    font-size: 100px;
     font-family: "uni-acc";
-    color: #ffffff;}
+    letter-spacing: 7px;
+    color: #f00707;
+    position: relative;
+    z-index: 1;}
   header .nav-fill {
     max-width: 250px; }
     header .nav-fill a {
-      color: #ffffff; }
+      color: #eb0d0d; }
     header .nav-fill li:hover a {
-      color: #03133a; }
+      color: #5e0707;
+      position: relative;
+    z-index: 1; }
   header .navbar li.nav-item a.nav-link {
-    font-family: "BucklaneScript";
+    font-family: "uni-acc";
+    font-size: 30px;
     color: #ffffff;
     padding-right: 1.5rem;
     padding-left: 1.5rem; }
